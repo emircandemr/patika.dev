@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.container .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .content .content_search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#eeeeee;
+}
+.container .content .content_search input{
+    width:15%;
+}
+.container .content .content_search .btn{
+    margin:2px;
+}
+.container .content .content_search .btn button{
+    padding:2px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.footer a{
+    color: blue;
+}
+
+.footer .footer_box{
+    height: 100%;
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    margin-left:5px;
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+    background-color: #70ccc2;
+}
+
+.content .footer .footer_box:first-child{
+    margin-left: 0;
+}
+.content .footer .footer_box:nth-last-child(2){
+    width: 70%;
+}
+.footer .footer_box input::placeholder{
+    color: black;
+    padding-left: 5px;
+}
+
+.footer .footer_box button{
+    margin-right: 5px;
+}
+.container .copy{
+    margin-top: 20px;
+}
